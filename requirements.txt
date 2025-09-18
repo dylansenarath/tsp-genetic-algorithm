@@ -1,0 +1,4 @@
+numpy>=1.26
+pandas>=2.2
+tqdm>=4.66
+pytest>=8.2
