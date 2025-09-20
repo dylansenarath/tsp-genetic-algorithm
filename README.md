@@ -119,6 +119,34 @@ Create an empty `data/.gitkeep` if you want the folder present without committin
 
 ---
 
+## Running the Solver
+
+1. Place your input file in the `data/` folder, e.g. `data/input.txt`.  
+   Format: one line per city with `id x y`.
+
+2. Run the solver:
+
+    ```bash
+    python src/main.py
+    ```
+
+3. Example output:
+
+    ```
+    576.125
+    137 199 93
+    120 199 34
+    199 173 30
+    175 53 76
+    144 39 130
+    173 101 186
+    153 196 97
+    ```
+
+- First line = total distance of the best route.  
+- Following lines = the cities in visiting order.
+
+
 ## License
 
 MIT License. See `LICENSE` for details.
